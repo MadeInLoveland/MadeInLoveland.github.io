@@ -1,0 +1,33 @@
+.main-head {
+  height: 400px;
+  background-color: #ccc
+}
+
+body {
+  background-color: #615559;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.uk-container {
+  width: 960px;
+}
+
+.main-container {
+  background-color: #ccc;
+}
+
+.nav-thingy {
+  color: #ccc;
+  background-color: #333;
+  margin: 0;
+  padding: 35px 0;
+}
+
+.nav-thingy h1, .nav-thingy h2 {
+  color: #ccc;
+}
