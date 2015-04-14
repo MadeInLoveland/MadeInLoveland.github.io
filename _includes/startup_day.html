@@ -1,5 +1,5 @@
-{% for evtt in site.data.startup_day.events %}
+{% for event in site.data.startup_day.events %}
   <div class="startup-day-event">
-    {{ evtt.title }} {{ evtt.location }}{{ evtt.speaker }}
+    {{ event.title }} {{ event.location }} {{ event.speaker }}
   </div>
 {% endfor %}
