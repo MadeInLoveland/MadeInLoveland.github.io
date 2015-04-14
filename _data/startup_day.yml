@@ -1,0 +1,14 @@
+events:
+  -
+    title: Armory Talk 1
+    location: The Armory
+    topic: Talk 1 topic
+    speaker: Tom Burrows Anthony (TBA)
+    time: Noon
+
+  -
+    title: Armory Talk 2
+    location: The Armory
+    topic: Talk 2 topic
+    speaker: Tom Burrows Anthony (TBA)
+    time: Noon Thirty
