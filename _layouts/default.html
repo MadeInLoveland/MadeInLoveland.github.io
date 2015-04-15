@@ -4,7 +4,7 @@
   <title>Made in Loveland</title>
   <link rel="stylesheet"  href="css/uikit.min.css">
   <link rel="stylesheet"  href="css/style.css">
-  <script src="js/jquery.1.11.2.min.js"></script>
+  <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/uikit.min.js"></script>
 </head>
 <body>
@@ -17,7 +17,7 @@
     <div class="uk-container uk-container-center">
       <div class="uk-grid uk-grid-collapse uk-text-center">
         {% for item in page.sections %}
-          <h2 class="uk-width-1-{{page.sections | size }} item"><a href="#{{item.slug}}">{{ item.name }}</a></h2>
+          <h2 class="uk-width-1-{{page.sections | size }} item"><a href="{{ item.url }}#{{ item.slug }}">{{ item.name }}</a></h2>
         {% endfor %}
       </div>
     </div>

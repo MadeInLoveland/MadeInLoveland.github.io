@@ -1,1 +1,5 @@
 featured_day: startup_day.html
+encoding: utf-8
+contact_form:
+  list_id: 3
+  host: https://list-me.herokuapp.com

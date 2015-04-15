@@ -11,14 +11,14 @@ sections:
     name: Contact Us
     slug: contact-us
 ---
-<a name="about">
-  {% include about.html %}
-</a>
+<section id="about">
+  {% markdown about.md %}
+</section>
 
-<a name="featured-day">
+<section id="featured-day">
   {% include featured_day %}
-</a>
+</section>
 
-<a name="contact-us">
+<section id="contact-us">
   {% include contact.html %}
-</a>
+</section>

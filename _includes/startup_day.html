@@ -1,5 +1,23 @@
-{% for event in site.data.startup_day.events %}
-  <div class="startup-day-event">
-    {{ event.title }} {{ event.location }} {{ event.speaker }}
-  </div>
-{% endfor %}
+<h2>Loveland Startup Day</h2>
+<h3>Sunday, May 31st</h3>
+<div class="startup-day">
+  {% for event in site.data.startup_day.events %}
+    <div class="startup-day-event">
+      <div class="title">
+        {{ event.title }}
+      </div>
+      <div class="location">
+        {{ event.location }}
+      </div>
+      <div class="topic">
+        {{ event.topic }}
+      </div>
+      <div class="speaker">
+        {{ event.speaker }}
+      </div>
+      <div class="time">
+        {{ event.time }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
