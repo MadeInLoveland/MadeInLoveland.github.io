@@ -1,0 +1,28 @@
+.main-logo {
+  margin: 8px 0;
+}
+
+nav.main-nav {
+  @extend .uk-navbar;
+
+  ul.uk-navbar-nav {
+    display: table;
+
+    > li {
+      display: table-cell;
+      float: none;
+      width: 1000px;
+      text-align: center;
+      transition: all 0.15s ease;
+
+      &:hover {
+        -webkit-transform: rotate(-2.5deg);
+        transform: rotate(-2.5deg);
+      }
+      > a {
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+    }
+  }
+}

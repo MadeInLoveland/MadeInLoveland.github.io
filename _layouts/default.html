@@ -7,25 +7,24 @@
   <script src="js/uikit.min.js"></script>
 </head>
 <body>
-  <div class="uk-grid">
-    <div class="uk-container uk-container-center">
-      <div class="uk-cover-background main-head"></div>
-    </div>
+  <div class="uk-container uk-container-center">
+    <img src="{{ASSET_PATH}}/img/mil-logo-411x127.png" class="main-logo">
+    <div class="uk-cover-background main-head"></div>
   </div>
-  <div class="nav-thingy">
+  <nav class="main-nav">
     <div class="uk-container uk-container-center">
-      <div class="uk-grid uk-grid-collapse uk-text-center">
+      <ul class="uk-navbar-nav">
         {% for item in page.sections %}
-          <h2 class="uk-width-1-{{page.sections | size }} item"><a href="{{ item.url }}#{{ item.slug }}">{{ item.name }}</a></h2>
+          <li>
+            <a href="{{ item.url }}#{{ item.slug }}">{{ item.name }}</a>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
-  </div>
+  </nav>
 
-  <div class="uk-grid">
-    <div class="uk-container uk-container-center">
-      <div class="uk-width-1-1 main-container">{{ content }}</div>
-    </div>
+  <div class="uk-container uk-container-center">
+    <div class="main-container">{{ content }}</div>
   </div>
 </div>
 
