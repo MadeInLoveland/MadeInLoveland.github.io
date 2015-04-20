@@ -8,9 +8,12 @@
       </h4>
       <div class="uk-grid">
         <div class="uk-width-medium-1-4">
-          <div class="speaker">
-            {{ event.speaker }}
-          </div>
+          {% if event.speaker %}
+            <div class="speaker">
+              {{ event.speaker }}<br>
+              <span>{{ event.company }}</span>
+            </div>
+          {% endif %}
           <div class="location">
             {{ event.location }}<br>
             <span><a href="//www.google.com/maps/place/{{ event.address|split:" "|join:"+" }},+Loveland,+CO+80537" target="_blank">
