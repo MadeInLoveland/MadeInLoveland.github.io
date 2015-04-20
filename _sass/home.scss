@@ -5,12 +5,18 @@
 }
 
 .interstitial-image {
-  height: 400px;
+  height: 500px;
   @extend .uk-cover-background;
   box-shadow: inset 0 0 50px #000, inset 0 0 15px #000;
 
+  @media screen and (max-width: $breakpoint-large-max) {
+    height: 400px;
+  }
+  @media screen and (max-width: $breakpoint-medium-max) {
+    height: 300px;
+  }
   @media screen and (max-width: $breakpoint-small-max) {
-    height: 250px;
+    height: 200px;
   }
 }
 
