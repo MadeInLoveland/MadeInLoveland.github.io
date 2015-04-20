@@ -9,14 +9,8 @@
 
 @import "nav.scss";
 @import "base.scss";
+@import "home.scss";
 
-
-section {
-  background-color: #ccc;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, .8);
-  margin-top: 48px;
-  padding: 32px;
-}
 
 .startup-day {
   overflow: hidden;

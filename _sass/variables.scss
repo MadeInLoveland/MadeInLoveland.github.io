@@ -1,16 +1,17 @@
-@import url("//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic");
+@import url("//fonts.googleapis.com/css?family=Montserrat:400,700");
+// @import url("//fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic");
 
 $loveland-red:                  #be1e2d;
 $loveland-grey:                 #191919;
 
-$base-body-font-family:         "Lato", sans-serif;
-$navbar-nav-font-family:        "Lato", sans-serif;
-$base-heading-font-family:      "Lato", sans-serif;
+$base-body-font-family:         "Montserrat", sans-serif;
+$navbar-nav-font-family:        "Montserrat", sans-serif;
+$base-heading-font-family:      "Montserrat", sans-serif;
 $base-heading-font-weight:      900;
-$base-heading-color:            darken($loveland-red, 10%);
+$base-heading-color:            darken($loveland-red, 3%);
 
 $base-link-color:               darken($loveland-red, 10%) !default;
-$base-link-hover-color:         $base-link-color !default;
+$base-link-hover-color:         darken($loveland-red, 3%) !default;
 
 $navbar-background:             $loveland-grey !default;
 $navbar-nav-font-size:          28px !default;

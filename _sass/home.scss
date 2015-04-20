@@ -1,0 +1,15 @@
+.main-content>section {
+  padding: 50px inherit;
+  background-color: #eee;
+  
+}
+
+.interstitial-image {
+  height: 400px;
+  @extend .uk-cover-background;
+  box-shadow: inset 0 0 50px #000;
+
+  @media screen and (max-width: $breakpoint-small-max) {
+    height: 250px;
+  }
+}
