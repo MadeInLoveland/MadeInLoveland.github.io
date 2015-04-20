@@ -10,39 +10,3 @@
 @import "nav.scss";
 @import "base.scss";
 @import "home.scss";
-
-
-.startup-day {
-  overflow: hidden;
-}
-
-.startup-day-event {
-    /* width: 50%; */
-    float: left;
-    clear: left;
-}
-
-.startup-day-event .title {
-    font-size: 135%;
-    font-variant: small-caps;
-    border: 1px solid #191919;
-    padding: 1em;
-    width:  50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.startup-day-event .location {
-    font-style: italic;
-}
-
-.startup-day-event .speaker {
-    float: right;
-    /* border: 1px solid; */
-    /* padding: 1em; */
-}
-
-.startup-day-event .topic {
-    clear: both;
-    font-family: Georgia, serif;
-}

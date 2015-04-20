@@ -13,3 +13,17 @@
     height: 250px;
   }
 }
+
+.startup-day-event {
+  h4 {
+    margin: 2.5em 0 0 0;
+  }
+  .speaker, .location, .time {
+    font-weight: bold;
+    margin-bottom: 0.6em;
+
+    span {
+      font-weight: normal;
+    }
+  }
+}
