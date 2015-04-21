@@ -1,0 +1,12 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "uikit/uikit-mixins.scss";
+@import "variables.scss";
+@import "uikit/uikit.scss";
+
+@import "nav.scss";
+@import "base.scss";
+@import "home.scss";
