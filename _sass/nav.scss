@@ -1,0 +1,32 @@
+.main-logo {
+  margin: 8px 0;
+}
+
+nav.main-nav {
+  @extend .uk-navbar;
+
+  ul.uk-navbar-nav {
+    @media screen and (min-width: $breakpoint-medium) {
+      display: table;
+    }
+
+    > li {
+      @media screen and (min-width: $breakpoint-medium) {
+        display: table-cell;
+        width: 1000px;
+        text-align: center;
+      }
+      float: none;
+      transition: all 0.15s ease;
+
+      &:hover {
+        -webkit-transform: rotate(-2.5deg);
+        transform: rotate(-2.5deg);
+      }
+      > a {
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+    }
+  }
+}

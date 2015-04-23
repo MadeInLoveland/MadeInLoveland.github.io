@@ -1,7 +1,8 @@
 events:
   -
     title: How to Represent Your Product/Company & Look Attactive to Investors
-    location: The Armory (411 N. Railroad Ave.)
+    location: The Armory
+    address: 411 Railroad Ave.
     topic: The future is Startups !! Corporate entities cannot create enough jobs
       or innovate fast enough to maintain relevance in the manner they once did.
       So what can we do to overcome the obstacles that limit new company emergence
@@ -11,37 +12,43 @@ events:
       new companies, offer a path to equity in the same companies for investors who
       simply don't know how or where to go to participate. Your journey is our
       journey - "What should you talk to us about?" Everything! Looking forward to meeting.
-    speaker: Allen Duck & Ben Walker of Acorn Capital
-    time: 12:30
+    speaker: Allen Duck & Ben Walker
+    company: Acorn Capital
+    time: 12:30 PM
 
   -
     title: Zero to Something
-    location: Artworks (310 N. Railroad Ave.)
+    location: Artworks
+    address: 310 Railroad Ave.
     topic: Kyle Kirkpatrick last year's Blue Ocean Challenge Grand Champion and
       Cinderella story who came out of nowhere to beat stiff competition, will be
       sharing his journey on how he is successfully building his company Decibullz
       from the ground up without having any prior knowledge or startup experience
       about  retail products, manufacturing or business, and the lessons learned
       along the journey thus far.
-    speaker: Kyle Kirkpatrick - CEO/Founder of Decibullz
-    time: 1:30
+    speaker: Kyle Kirkpatrick
+    company: CEO/Founder of Decibullz
+    time: 1:30 PM
 
   -
     title: Successfully Raising Growth Capital in Colorado - The Good, the Bad, and the Challenging
-    location: Artworks (310 N. Railroad Ave.)
+    location: Artworks
+    address: 310 Railroad Ave.
     topic: Mike is the CEO for the Innosphere - a technology incubator with a diverse client base
       in clean energy, biosciences, water technology and hardware/software. Formerly, Mike was a
-      senior consultant to Colorado State University’s Ventures working on strategic initiatives
+      senior consultant to Colorado State University's Ventures working on strategic initiatives
       to improve the incubation capacity of the University and has held other management positions
-      in the public and private sectors. Mike’s passion is assisting Innosphere clients with
+      in the public and private sectors. Mike's passion is assisting Innosphere clients with
       strategic business issues, raising capital, fundraising and helping our client companies
       make a significant impact in their industry.
-    speaker: Mike Freeman - CEO of Innosphere
-    time: 2:00
+    speaker: Mike Freeman
+    company: CEO of Innosphere
+    time: 2:00 PM
 
   -
     title: Made in Loveland Company Showcase
-    location: CreatorSpace (320 N. Railroad Ave.)
+    location: CreatorSpace
+    address: 320 Railroad Ave.
     topic: Come check out some of Loveland's amazing makers, techies, creatives, and growing
       companies and build peer to peer relationships, business to business contacts and customers
       and drink free beer courtesy of Aleworks, Verboten, and Crow Hop breweries.

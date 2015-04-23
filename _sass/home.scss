@@ -1,0 +1,39 @@
+.main-content>section {
+  padding: 50px inherit;
+  background-color: #eee;
+  
+}
+
+.interstitial-image {
+  height: 500px;
+  @extend .uk-cover-background;
+  box-shadow: inset 0 0 50px #000, inset 0 0 15px #000;
+
+  @media screen and (max-width: $breakpoint-large-max) {
+    height: 400px;
+  }
+  @media screen and (max-width: $breakpoint-medium-max) {
+    height: 300px;
+  }
+  @media screen and (max-width: $breakpoint-small-max) {
+    height: 200px;
+  }
+}
+
+.startup-day-event {
+  h4 {
+    margin: 2.5em 0 0.4em 0;
+
+    &:first-child {
+      margin-top: 25px;
+    }
+  }
+  .speaker, .location, .time {
+    font-weight: bold;
+    margin-bottom: 0.6em;
+
+    span {
+      font-weight: normal;
+    }
+  }
+}

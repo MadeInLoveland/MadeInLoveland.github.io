@@ -2,32 +2,27 @@
 <html>
 <head>
   <title>Made in Loveland</title>
-  <link rel="stylesheet"  href="css/uikit.min.css">
-  <link rel="stylesheet"  href="css/style.css">
+  <link rel="stylesheet"  href="/css/style.css">
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/uikit.min.js"></script>
 </head>
 <body>
-  <div class="uk-grid">
-    <div class="uk-container uk-container-center">
-      <div class="uk-cover-background main-head"></div>
-    </div>
+  <div class="container">
+    <img src="/img/mil-logo-411x127.png" class="main-logo">
+    <div class="uk-cover-background main-head"></div>
   </div>
-  <div class="nav-thingy">
-    <div class="uk-container uk-container-center">
-      <div class="uk-grid uk-grid-collapse uk-text-center">
+  <nav class="main-nav">
+    <div class="container">
+      <ul class="uk-navbar-nav">
         {% for item in page.sections %}
-          <h2 class="uk-width-1-{{page.sections | size }} item"><a href="{{ item.url }}#{{ item.slug }}">{{ item.name }}</a></h2>
+          <li>
+            <a href="{{ item.url }}#{{ item.slug }}">{{ item.name }}</a>
+          </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
-  </div>
-
-  <div class="uk-grid">
-    <div class="uk-container uk-container-center">
-      <div class="uk-width-1-1 main-container">{{ content }}</div>
-    </div>
-  </div>
+  </nav>
+  <div class="main-content">{{ content }}</div>
 </div>
 
 </body>
