@@ -1,4 +1,4 @@
-<div class="uk-grid">
+  <div class="uk-grid">
   <div class="uk-width-medium-2-3">
     {% include contact_us.html %}
   </div>
@@ -26,18 +26,23 @@
           <button type="submit" class="uk-button uk-button-primary">Submit</button>
         </div>
       </div>
-      
+
     </form>
   </div>
 </div>
 <script>
-  $(function() { 
+  $(function() {
     $('form.ajax').on('submit', function(e){
       e.preventDefault();
       $form = $(this);
       $form.find('.uk-alert-danger').addClass('uk-hidden');
 
-      $.post($form.attr('action'), $form.serialize())
+      $.ajax({
+        type: 'POST',
+        url: $form.attr('action'),
+        data: $form.serialize() + "&format=json",
+        dataType: "json"
+      })
         .done(function(data, textStatus, jqXHR){
           $form.height($form.height());
           $form.find('.form-content').addClass('uk-hidden');
