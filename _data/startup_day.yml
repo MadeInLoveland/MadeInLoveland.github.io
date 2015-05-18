@@ -18,8 +18,8 @@ events:
 
   -
     title: Zero to Something
-    location: Artworks
-    address: 310 Railroad Ave.
+    location: The Armory
+    address: 411 Railroad Ave.
     topic: Kyle Kirkpatrick last year's Blue Ocean Challenge Grand Champion and
       Cinderella story who came out of nowhere to beat stiff competition, will be
       sharing his journey on how he is successfully building his company Decibullz
@@ -28,7 +28,7 @@ events:
       along the journey thus far.
     speaker: Kyle Kirkpatrick
     company: CEO/Founder of Decibullz
-    time: 1:30 PM
+    time: 1:00 PM
 
   -
     title: Successfully Raising Growth Capital in Colorado - The Good, the Bad, and the Challenging
@@ -44,6 +44,15 @@ events:
     speaker: Mike Freeman
     company: CEO of Innosphere
     time: 2:00 PM
+    
+      -
+    title: 
+    location: Artworks
+    address: 310 Railroad Ave.
+    topic: 
+    speaker: Mike Olson
+    company: Complete Solution Robotics
+    time: 2:30 PM
 
   -
     title: Made in Loveland Company Showcase
