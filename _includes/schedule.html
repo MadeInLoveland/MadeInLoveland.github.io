@@ -1,5 +1,5 @@
-<h2>Loveland Startup Day</h2>
-<h3>Sunday, May 31</h3>
+<h2>Monthly Event Schedule</h2>
+
 <div class="startup-day">
   {% for event in site.data.schedule.events %}
     <div class="startup-day-event">
@@ -22,26 +22,19 @@
                 </a></span>
               {% else %}
                 Changes Monthly (check Meetup)
-              {% endif %}  
+              {% endif %}
           </div>
 
         </div>
         <div class="uk-width-medium-3-4">
           <div class="topic">
-            {{ event.topic }}
+            {{ event.topic|split:"\n"|join:"<br>" }}
           </div>
         </div>
       </div>
     </div>
   {% endfor %}
-  <div class="startup-day-event">
-    <div class="uk-grid">
-      <div class="uk-width-medium-1-4"></div>
-      <div class="uk-width-medium-3-4">
-        <a class='uk-button uk-button-primary' href="/expo-application.html">Apply to participate</a>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 <!-- Need to add links for Meetup and Slack -->
