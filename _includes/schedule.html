@@ -28,7 +28,7 @@
         </div>
         <div class="uk-width-medium-3-4">
           <div class="topic">
-            {{ event.topic|split:"\n"|join:"<br>" }}
+            {{ event.topic|newline_to_br }}
           </div>
         </div>
       </div>
