@@ -16,9 +16,13 @@
           {% endif %}
           <div class="location">
             {{ event.location }}<br>
-            <span><a href="//www.google.com/maps/place/{{ event.address|split:" "|join:"+" }},+Loveland,+CO+80537" target="_blank">
-              {{ event.address }}
-            </a></span>
+              {% if event.address %}
+                <span><a href="//www.google.com/maps/place/{{ event.address|split:" "|join:"+" }},+Loveland,+CO+80537" target="_blank">
+                  {{ event.address }}
+                </a></span>
+              {% else %}
+                Changes Monthly (check Meetup)
+              {% endif %}  
           </div>
 
         </div>
